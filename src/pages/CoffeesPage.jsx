@@ -1,5 +1,5 @@
 function CoffeesPage() {
-  return <div>CoffeesPage</div>;
+  return <div style={{ minHeight: "2000px" }}>CoffeesPage</div>;
 }
 
 export default CoffeesPage;

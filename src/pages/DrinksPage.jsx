@@ -1,7 +1,7 @@
 
 function DrinksPage() {
   return (
-    <div>DrinksPage</div>
+    <div style={{ minHeight: "2000px" }}>DrinksPage</div>
   )
 }
 

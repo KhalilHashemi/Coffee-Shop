@@ -1,7 +1,7 @@
 
 function CakesPage() {
   return (
-    <div>CakesPage</div>
+    <div style={{ minHeight: "2000px" }}>CakesPage</div>
   )
 }
 

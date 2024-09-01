@@ -1,8 +1,5 @@
-
 function AboutUsPage() {
-  return (
-    <div>AboutUsPage</div>
-  )
+  return <div style={{ minHeight: "2000px" }}>AboutUsPage</div>;
 }
 
-export default AboutUsPage
+export default AboutUsPage;

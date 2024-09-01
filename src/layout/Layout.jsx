@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { navbarItems } from "../constants/navbar";
 import {
   BsTwitter,
   BsTelegram,
@@ -8,25 +7,12 @@ import {
   BsHeartFill,
 } from "react-icons/bs";
 import styles from "../styles/Layout.module.css";
+import Header from "./Header";
+
 function Layout({ children }) {
   return (
     <>
-      <header className={styles.header}>
-        <nav>
-          <ul>
-            {navbarItems.map((item) => (
-              <li key={item.id}>
-                <Link to={`${item.path}`}> {item.name}</Link>
-              </li>
-            ))}
-          </ul>
-        </nav>
-        <img src="../../public/images/Background-1.jpg" alt="" />
-        <div>
-          <p>قهوه های ما چه طعمی هستند؟</p>
-          <p>فقط کافیه یک بار امتحانش کنی، عاشقش میشی!</p>
-        </div>
-      </header>
+      <Header />
       {children}
       <footer className={styles.footer}>
         <div>
