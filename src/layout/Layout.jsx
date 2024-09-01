@@ -21,6 +21,11 @@ function Layout({ children }) {
             ))}
           </ul>
         </nav>
+        <img src="../../public/images/Background-1.jpg" alt="" />
+        <div>
+          <p>قهوه های ما چه طعمی هستند؟</p>
+          <p>فقط کافیه یک بار امتحانش کنی، عاشقش میشی!</p>
+        </div>
       </header>
       {children}
       <footer className={styles.footer}>
