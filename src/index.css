@@ -1,5 +1,6 @@
 :root {
-  font-family: Vazir-Medium, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Vazir-Medium", Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
   line-height: 1.5;
   font-weight: 400;
 }
@@ -11,4 +12,8 @@ body {
 }
 a {
   text-decoration: none;
+}
+input,
+button{
+  font-family: "Vazir-Medium";
 }
